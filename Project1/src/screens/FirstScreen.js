@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {View, Text, Button} from 'react-native';
 
@@ -37,7 +38,7 @@ const ChallegeScreen = () => {
       <Text style={{color: 'green', margin: 10}}>
         Let's Learn React Native Framework
       </Text>
-      <Text style={{marginBottom: 10}}>My name is Alex </Text>
+      <Text style={{marginBottom: 10}}>My name is Alexa </Text>
       <Text style={{textAlign: 'center'}}>
         Now I'm learning about
         <Text style={{color: 'blue'}}> React Native Components</Text> to build

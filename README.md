@@ -138,6 +138,15 @@ Larger discussions and proposals are discussed in [**@react-native-community/dis
 
 ## 📄 License
 
+## My error lists
+
+1. react-native-reanimated configuring:
+   solved by: downgrade from v3.0.0 to 2.17.0
+2. reset cache
+   npx react-native start --reset-cache
+   npx react-native run-android
+3. port will be reset if the cmd/metro closed, and run again using react-native run-android
+
 React Native is MIT licensed, as found in the [LICENSE][l] file.
 
 React Native documentation is Creative Commons licensed, as found in the [LICENSE-docs][ld] file.
