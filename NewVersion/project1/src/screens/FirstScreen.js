@@ -1,14 +1,28 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
-import {View, Text, Button} from 'react-native';
+import { View, Text, Button } from 'react-native';
 
 const FirstScreen = () => {
-  return (
-    <View>
-      <Text>Hello World</Text>
-      <Button title="Go to Second Screen" />
-    </View>
-  );
+    const openAlert = () => {
+        alert('You clicked the button!');
+    }
+
+    return (
+        <View style={{
+            flex:1,
+            alignItems:'center',
+            justifyContent:'center'
+        }}>
+            <Text style={{ margin:16 }}>
+                Hello
+                <Text style={{ color:'red' }}> World</Text>
+                !
+            </Text>
+            <Button
+                title='This is button'
+                onPress={openAlert}
+            />
+        </View>
+    )
 };
 
 export default FirstScreen;
